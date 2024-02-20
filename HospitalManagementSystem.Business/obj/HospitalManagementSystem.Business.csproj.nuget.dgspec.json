@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Business\\HospitalManagementSystem.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Business\\HospitalManagementSystem.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Business\\HospitalManagementSystem.Business.csproj",
+        "projectName": "HospitalManagementSystem.Business",
+        "projectPath": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Business\\HospitalManagementSystem.Business.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Entities\\HospitalManagementSystem.Entities.csproj": {
+                "projectPath": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Entities\\HospitalManagementSystem.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Entities\\HospitalManagementSystem.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Entities\\HospitalManagementSystem.Entities.csproj",
+        "projectName": "HospitalManagementSystem.Entities",
+        "projectPath": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Entities\\HospitalManagementSystem.Entities.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Desktop\\WorkSpace\\YMYP_academy\\09.NET\\HospitalManagementSystem\\HospitalManagementSystem.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

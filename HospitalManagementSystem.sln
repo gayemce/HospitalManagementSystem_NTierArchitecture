@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem.WepAPI", "HospitalManagementSystem.WepAPI\HospitalManagementSystem.WepAPI.csproj", "{08E8080F-D531-4A30-ACF4-819288EABEF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalManagementSystem.WepAPI", "HospitalManagementSystem.WepAPI\HospitalManagementSystem.WepAPI.csproj", "{08E8080F-D531-4A30-ACF4-819288EABEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem.Entities", "HospitalManagementSystem.Entities\HospitalManagementSystem.Entities.csproj", "{811722C6-F16B-46AE-888B-313057A73213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalManagementSystem.Entities", "HospitalManagementSystem.Entities\HospitalManagementSystem.Entities.csproj", "{811722C6-F16B-46AE-888B-313057A73213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem.DataAccess", "HospitalManagementSystem.DataAccess\HospitalManagementSystem.DataAccess.csproj", "{4E81DF2B-9680-4846-A45E-1BD8DC9F36D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalManagementSystem.DataAccess", "HospitalManagementSystem.DataAccess\HospitalManagementSystem.DataAccess.csproj", "{4E81DF2B-9680-4846-A45E-1BD8DC9F36D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementSystem.Business", "HospitalManagementSystem.Business\HospitalManagementSystem.Business.csproj", "{0A553736-9AD5-45AE-A2C7-CC14CA449866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4E81DF2B-9680-4846-A45E-1BD8DC9F36D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E81DF2B-9680-4846-A45E-1BD8DC9F36D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E81DF2B-9680-4846-A45E-1BD8DC9F36D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A553736-9AD5-45AE-A2C7-CC14CA449866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A553736-9AD5-45AE-A2C7-CC14CA449866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A553736-9AD5-45AE-A2C7-CC14CA449866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A553736-9AD5-45AE-A2C7-CC14CA449866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

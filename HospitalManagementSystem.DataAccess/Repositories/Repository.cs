@@ -1,4 +1,5 @@
 ﻿using HospitalManagementSystem.DataAccess.Context;
+using HospitalManagementSystem.Entities.Abstractions;
 using HospitalManagementSystem.Entities.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
@@ -15,6 +16,11 @@ internal class Repository<T> : IRepository<T>
     public async Task AddAsync(T entity, CancellationToken cancellationToken = default)
     {
         await _context.Set<T>().AddAsync(entity, cancellationToken);
+    }
+
+    public async Task<bool> AnyAsync(Expression<Func<T, bool>> expression, CancellationToken cancellationToken = default)
+    {
+        return await _context.Set<T>().AnyAsync(expression, cancellationToken);
     }
 
     public IQueryable<T> GetAll()
